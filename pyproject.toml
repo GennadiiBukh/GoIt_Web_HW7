@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw7"
+version = "0.1.0"
+description = "HW7_SQLAlchemy"
+authors = ["BGU"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.23"
+poetry = "^1.7.0"
+alembic = "^1.12.1"
+myapp = "^0.1.dev0"
+faker = "^19.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
